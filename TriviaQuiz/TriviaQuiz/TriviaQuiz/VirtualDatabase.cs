@@ -3,7 +3,7 @@
     public static class VirtualDatabase
     {
         public static List<Question> quiz_questions = new List<Question>();
-        // store questions in vertial database
+        // store questions in vertial database -- questions are taken from "https://opentdb.com/api_config.php"
         static VirtualDatabase()
         {
             Question new_question = new Question();
